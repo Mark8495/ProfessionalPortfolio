@@ -5,3 +5,31 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+:root{
+    --black: #333;
+    --black2: #333;
+    --white: #fff;
+    --white2: #fff;
+
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.05);
+    background: var(--white2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.navigation ul{
+    
+}
