@@ -29,6 +29,10 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: width 0.5s;
+}
+.navigation .active{
+    width : 0;
 }
 .navigation ul{
     position: relative;
@@ -82,6 +86,12 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    transition: width 0.5s, left 0.5s;
+}
+
+.main .topbar{
+    width: calc(100% - 0px);
+    left: 0px;
 }
 .main .topbar .logo{
     color: var(--black);
@@ -91,6 +101,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
 
 .main .topbar .toggle{
     position: relative;
