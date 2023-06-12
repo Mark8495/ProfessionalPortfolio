@@ -72,6 +72,12 @@ body{
     left: 300px;
     background: white;
     min-height: 100vh;
+    transition: width 0.5s, left 0.5s;
+}
+.main .active{
+    width: calc(100% - 0px);
+    left: 0px;
+    
 }
 .main .topbar{
     position: fixed;
@@ -89,7 +95,7 @@ body{
     transition: width 0.5s, left 0.5s;
 }
 
-.main .topbar{
+.main .topbar .active{
     width: calc(100% - 0px);
     left: 0px;
 }
