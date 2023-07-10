@@ -182,3 +182,21 @@ p{
     margin-top: 10px;
     text-decoration: none;
 }
+
+.socialMedia{
+   position: absolute;
+   bottom: 20px;
+   display: flex;
+
+}
+
+.socialMedia li{
+    list-style: none;
+}
+
+.socialMedia li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:rgba(0,0,0,0.05) ;
+}
